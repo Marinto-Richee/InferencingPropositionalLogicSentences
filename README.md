@@ -16,11 +16,16 @@ The Wumpus world is a cave which has 4/4 rooms connected with passageways. So th
 ## DESIGN STEPS
 ### STEP 1:
 Write propositional logic sentences to define Wumpus World problem
--
 
 ### STEP 2:
 Encode the propositional logic statements into the knowledge base using the tell function.
 
+### STEP 3:
+Make a move in the simulator and pass the percepts to the knowledge base using the tell function.
+
+
+### STEP 4:
+After passing the percepts to the knowledge base, ask the knowledge base about the next possible move, and make the move in accordance with the result of the ask_if_true function.
 
 ## PROGRAM
 ```
